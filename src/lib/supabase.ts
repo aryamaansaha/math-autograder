@@ -1,4 +1,4 @@
-import { createBrowserClient } from '@supabase/ssr';
+import { createClient } from '@supabase/supabase-js';
 import type { SupabaseClient } from '@supabase/supabase-js';
 
 // Re-export types from shared types file
@@ -22,7 +22,7 @@ export function getSupabase(): SupabaseClient {
       throw new Error('Supabase environment variables are not set');
     }
     
-    _supabase = createBrowserClient(supabaseUrl, supabaseAnonKey);
+    _supabase = createClient(supabaseUrl, supabaseAnonKey);
   }
   return _supabase;
 }
