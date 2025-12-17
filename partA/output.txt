@@ -1,0 +1,29 @@
+--------------------------------
+Funnel Analysis
+--------------------------------
+Visitors: 12000
+Clicked Continue (Willing to give number): 8400 | Drop Off: 30.0%
+Validated Code (Actually verified): 5880 | Drop Off: 30.0%
+Class Selected: 5880 | Drop Off: 0.0%
+Decision Point: 4116 | Drop Off: 30.0% (Skip for later vs try sample)
+Entered Editor: 1728 | Drop Off: 58.02%
+Assignment Created: 569 | Drop Off: 67.07%
+Activated: 170 | Drop Off: 70.12%
+--------------------------------
+Decision Point Analysis
+--------------------------------
+Users who clicked 'Try Sample': 2056
+Users who clicked 'Skip for Later': 2060
+Users who clicked BOTH 'Try Sample' and 'Skip for Later': 0
+
+Assignment Creation Rate after clicking 'Try Sample': 277/2056 = 13.5%
+Assignment Creation Rate after clicking 'Skip for Later': 292/2060 = 14.2%
+
+------------------------------
+Cohort Analysis: Activation Rate by Acquisition Type
+------------------------------
+        cohort  Users  % Created Assignment  % Activated (overall)  % Activation post-creation
+email_campaign    599                   4.3                    0.7                        15.4
+       organic   7209                   4.8                    1.2                        25.8
+   paid_search   2974                   4.7                    1.8                        37.6
+      referral   1218                   4.4                    1.9                        43.4
