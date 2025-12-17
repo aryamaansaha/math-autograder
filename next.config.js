@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  transpilePackages: ['@supabase/supabase-js', '@supabase/node-fetch'],
-}
+const nextConfig = {}
 
 module.exports = nextConfig
 
